@@ -1,35 +1,80 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>BGM</title>
-    <title>Menu Horizontal</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <nav class="menu-h">
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Agronegócio</a></li>
-            <li><a href="#">Sustentabilidade</a></li>
-            <li><a href="#">Tecnologia</a></li>
-            <li><a href="index.html">Voltar</a></li>
-        </ul>
-    </nav>
-    <p style="background-image: url(beautiful-view-morning-light.jpg)"></p>
-    <main>
-        <section class="home">
-            <div class="home-text">
-                <h1 class="text-h1">A Importância do Agro</h1>
-                <br><br><br><br><br><br><br><br><br><br><br>
-                <p>Como juntar o tradicional com a inovação</p>
-        
-                <br><br><br>
-            </div>
-        </section>
-    </main>
-</body>
-</html>
+.menu-h ul{
+    list-style: none;
+    padding: 0 30%;
+    background-color: rgb(80, 48, 0);   
+  }
+  
+  .menu-h ul li{
+    display: inline;
+  }
+  
+  .menu-h ul li a{
+    color: #FFFFFF;
+    padding: 15px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background ,4s; 
+  }
+  
+  .menu-h ul li a:hover{
+    background-color: rgb(114, 158, 212);
+    
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+  background-image: url(beautiful-shot-lamb-middle-green-field.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  }
+
+h1{
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    margin: 10px 50px 20px;
+    margin-top: 3%;
+    padding: auto;
+}
+
+p{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    margin: 10px 50px 20px;
+    margin-top: 3%;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 40px;
+    box-shadow: 0 0.1rem 0.5rem #ccc;
+    width: 100%;
+    background: var(--dark);
+    transition: all 0.5s;
+    position: fixed;
+}
+
+.navigation ul{
+    display: flex;
+    align-items: center;
+    gap: 10rem;
+}
+
+.navigation ul li a{
+    color: rgb(8, 8, 39);
+    font-size: 17px;
+    font-weight: 500;
+    transition: all 0.5s;
+}
+.navigation ul li a:hover{
+    color: rgb(255, 255, 255);
+}
