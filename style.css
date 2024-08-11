@@ -8,7 +8,7 @@
 .menu-h ul{
     list-style: none;
     padding: 0 30%;
-    background-color: var(--cor-marrom);   
+    background-color: var(--cor-verde);   
   }
   
   .menu-h ul li{
@@ -38,7 +38,7 @@
   }
   
   body {
-  background-image: url(imagens/paginainicial.jpg);
+  background-image: url(imagens/tecnologia-no-agro.jpeg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
@@ -108,5 +108,5 @@
 
   .organizacao{
     width: 100%;
-    background-color: var(--cor-marrom);
+    background-color: var(--cor-verde);
   }
