@@ -1,7 +1,7 @@
 .menu-h ul{
     list-style: none;
     padding: 0 30%;
-    background-color: rgb(80, 48, 0);   
+    background-color: rgb(3, 53, 2);   
   }
   
   .menu-h ul li{
@@ -17,7 +17,7 @@
   }
   
   .menu-h ul li a:hover{
-    background-color: rgb(114, 158, 212);
+    background-color: rgba(29, 255, 86, 0.623);
     
   }
 *{
@@ -70,7 +70,7 @@ p{
 }
 
 .navigation ul li a{
-    color: rgb(8, 8, 39);
+    color: rgb(8, 39, 24);
     font-size: 17px;
     font-weight: 500;
     transition: all 0.5s;
