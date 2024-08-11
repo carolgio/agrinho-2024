@@ -1,7 +1,7 @@
 
 
 :root{
-  --cor-branca: #0090b4;
+  --cor-branca: #ffffff;
   --cor-marrom: rgb(80, 48, 0)
 
 }
@@ -46,7 +46,7 @@
   
   h1{
     font-size: 120px;
-    color: rgb(0, 126, 165);
+    color: rgb(255, 255, 255);
     margin: 10px 50px 20px;
     margin-top: 3%;
   }
