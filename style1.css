@@ -1,80 +1,80 @@
 .menu-h ul{
-    list-style: none;
-    padding: 0 30%;
-    background-color: rgb(3, 53, 2);   
-  }
+  list-style: none;
+  padding: 0 30%;
+  background-color: rgb(26, 59, 10);   
+}
+
+.menu-h ul li{
+  display: inline;
+}
+
+.menu-h ul li a{
+  color: #FFFFFF;
+  padding: 15px;
+  display: inline-block;
+  text-decoration: none;
+  transition: background ,4s; 
+}
+
+.menu-h ul li a:hover{
+  background-color: rgba(27, 90, 35, 0.795);
   
-  .menu-h ul li{
-    display: inline;
-  }
-  
-  .menu-h ul li a{
-    color: #FFFFFF;
-    padding: 15px;
-    display: inline-block;
-    text-decoration: none;
-    transition: background ,4s; 
-  }
-  
-  .menu-h ul li a:hover{
-    background-color: rgba(29, 255, 86, 0.623);
-    
-  }
+}
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-    list-style: none;
-    text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  list-style: none;
+  text-decoration: none;
 }
 
 body {
-  background-image: url(beautiful-shot-lamb-middle-green-field.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 100%;
-  }
+background-image: url(beautiful-shot-lamb-middle-green-field.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100% 100%;
+}
 
 h1{
-    font-size: 60px;
-    color: rgb(255, 255, 255);
-    margin: 10px 50px 20px;
-    margin-top: 3%;
-    padding: auto;
+  font-size: 60px;
+  color: rgb(255, 255, 255);
+  margin: 10px 50px 20px;
+  margin-top: 3%;
+  padding: auto;
 }
 
 p{
-    font-size: 30px;
-    color: rgb(255, 255, 255);
-    margin: 10px 50px 20px;
-    margin-top: 3%;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  margin: 10px 50px 20px;
+  margin-top: 3%;
 }
 
 .navigation{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 18px 40px;
-    box-shadow: 0 0.1rem 0.5rem #ccc;
-    width: 100%;
-    background: var(--dark);
-    transition: all 0.5s;
-    position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 40px;
+  box-shadow: 0 0.1rem 0.5rem #ccc;
+  width: 100%;
+  background: var(--dark);
+  transition: all 0.5s;
+  position: fixed;
 }
 
 .navigation ul{
-    display: flex;
-    align-items: center;
-    gap: 10rem;
+  display: flex;
+  align-items: center;
+  gap: 10rem;
 }
 
 .navigation ul li a{
-    color: rgb(8, 39, 24);
-    font-size: 17px;
-    font-weight: 500;
-    transition: all 0.5s;
+  color: rgb(9, 32, 4);
+  font-size: 17px;
+  font-weight: 500;
+  transition: all 0.5s;
 }
 .navigation ul li a:hover{
-    color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
 }

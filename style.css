@@ -1,4 +1,5 @@
 
+
 :root{
   --cor-branca: #fff;
   --cor-marrom: rgb(80, 48, 0)
@@ -23,7 +24,7 @@
   }
   
   .menu-h ul li a:hover{
-    background-color: rgba(10, 133, 65, 0.671);
+    background-color: rgba(94, 134, 66, 0.863);
     
   }
   
